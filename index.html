@@ -10,7 +10,7 @@
     <title>Banvaaz</title>
 </head>
 <body>
-    <nav class="nav">    
+    <nav class="nav container">    
         <a href="#">
             <picture>
                 <source media="(max-width : 1024px)" srcset="./assets/images/Logo1x.png" />
@@ -18,7 +18,13 @@
                 <img src="./assets/images/Logo2x.png" alt="logo">    
             </picture>
         </a>
-        <ul class="list">
+        <div class="nav__toggler">
+            <div class="bar bar-one"></div>
+            <div class="bar bar-two"></div>
+            <div class="bar bar-three"></div>
+        </div>
+
+        <ul class="list nav__list">
             <li class="nav__item"><a href="#">خانه</a></li>
             <li class="nav__item"><a href="#">فروشگاه</a></li>
             <li class="nav__item">
@@ -27,12 +33,12 @@
                 </a>
             </li>
             <li class="nav__item cta">
-                <a href="#" class="btn">
+                <a href="#" class="btn btn--block btn--primary">
                     ورود به داشبورد
                 </a>
             </li>
             <li class="nav__item cta">
-                <a href="#" class="btn">
+                <a href="#" class="btn btn--block btn--secondary">
                     دانلود اپلیکیشن
                 </a>
             </li>
@@ -43,5 +49,7 @@
     <h3>header 3</h3>
     <h4>header 4</h4> -->
     <!-- <footer>footer</footer> -->
+
+    <script src="/js/app.js"></script>
 </body>
 </html>
