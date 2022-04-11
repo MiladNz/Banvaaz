@@ -1,0 +1,40 @@
+
+* ,
+*::before ,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+:root {
+    --color-primary :#0E5D80;
+    --color-secondary-light : #53B9D9;
+    --color-secondary-dark :#5BB1CC;
+    --color-white : #FFFFFF;
+    --color-ability-section : #7EDCF9;
+    --color-font-footer: #F4F5F7;
+
+}
+
+html {
+        font-size: 62.5%;
+}
+
+body {
+    background: var(--color-secondary-light);
+}
+@media screen and (min-width: 1024px) {
+    body {
+        background: linear-gradient(243.02deg, #10A9DA -9.92%, #92E5FF 106.28%);
+    }
+    
+}
+
+
+
+footer {
+    background: linear-gradient(97.01deg, #53B9D9 -6.41%, rgba(20, 77, 101, 0) 110.43%);
+}
+
