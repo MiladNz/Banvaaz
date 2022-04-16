@@ -229,6 +229,7 @@ h4 {
     position: relative;
     width: 100%;
     height: 478px;
+
 }
 .hero-section .banner-img {
     width: 280px;
@@ -244,6 +245,7 @@ h4 {
     left: 5%;
     bottom: -5%;
 }
+
 .hero-text {
     color: var(--color-white);
     font-size: 3.6rem;
@@ -260,6 +262,9 @@ h4 {
     }
     .banner-phone {
         display: block;
+    }
+    .hero-title {
+        margin: 2rem 4rem 3.5rem auto;
     }
 }
 /* Footer */
