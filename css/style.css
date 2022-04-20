@@ -15,7 +15,7 @@
     --color-white : #FFFFFF;
     --color-ability-section : #7EDCF9;
     --color-font-footer: #F4F5F7;
-
+    --color-font-btn-hero: #399DBC;
 }
 
 html {
@@ -216,12 +216,22 @@ h4 {
     background-color: var(--color-primary);
 }
 .btn--hero {
-    color: var(--color-secondary-light);
-    background: #F5F5F5;
-    box-shadow: 0px 22px 40px rgba(0, 0, 0, 0.1);
+   color: var(--color-font-btn-hero);
+   background-color: #F5F5F5;
+   margin-right: 1.5rem;
+   margin-top: 3rem;
 }
 .nav .btn_tert {
     margin-right: 6rem;
+}
+
+@media screen and (min-width:1024px){
+    .btn--hero {
+        color: var(--color-secondary-light);
+        background: #F5F5F5;
+        box-shadow: 0px 22px 40px rgba(0, 0, 0, 0.1);
+        margin-right: 4rem;
+    }
 }
 
 /* Hero Section */
@@ -237,6 +247,7 @@ h4 {
     float: left;
     margin: 4rem;
 }
+
 .banner-phone {
     display: none;
     position: absolute;
@@ -246,13 +257,16 @@ h4 {
     bottom: -5%;
 }
 
+.hero-title {
+    margin: 2rem 1.5rem 2rem auto ;
+}
 .hero-text {
     color: var(--color-white);
-    font-size: 3.6rem;
+    font-size: 1.8rem;
     font-weight: 500;
     text-align: right;
-    line-height: 54px;
-    margin: 3.5rem 4rem 0 0;
+    line-height: 27px;
+    margin: 1.9rem 1.7rem 3rem 1.6rem;
 }
 
 @media screen and (min-width:1024px) {
@@ -265,6 +279,11 @@ h4 {
     }
     .hero-title {
         margin: 2rem 4rem 3.5rem auto;
+    }
+    .hero-text {
+        margin: 3.5rem 4rem auto auto;
+        font-size: 3.6rem;
+        line-height: 54px;
     }
 }
 /* Footer */
