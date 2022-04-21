@@ -293,7 +293,8 @@ h4 {
     flex-direction: row;
     justify-content: space-between;
     margin-right: 1.7rem;
-    /* overflow: ; */
+    margin-left: 1.6rem;
+    flex-wrap: wrap;
 }
 .tab {
     text-decoration: none;
@@ -301,12 +302,12 @@ h4 {
     flex-direction: column;
     align-items: center;
     max-width: 90px;
+    margin-top: 3rem;
 }
 
 .tab__image {
     display: flex;
     flex-direction: column;
-    /* height: 16vh; */
 }
 .tab__text {
     font-size: 1.8rem; 
