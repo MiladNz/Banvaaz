@@ -359,6 +359,7 @@ h4 {
 }
 .device__header {
     text-align: center;
+    margin-bottom: 2rem;
 }
 .device__text {
     font-size: 1.6rem;
@@ -372,14 +373,23 @@ h4 {
 }
 
 @media screen and (min-width:1024px) {
+    .device__header {
+        margin-bottom: 4rem;
+    }
     .device__img_1x {
         display: none;
     }
     .device__img_2x {
-    display: block;
-    width: 758px;
-    height: auto;
-    margin: 6rem 34rem 10rem 34rem;
+        display: block;
+        width: 758px;
+        height: auto;
+        margin: 6rem 34rem 10rem 34rem;
+    }
+    .device__text {
+        font-size: 3.5rem;
+        line-height: 5rem;
+        text-align: center;
+        margin-bottom: 6rem;
     }
 }
 
