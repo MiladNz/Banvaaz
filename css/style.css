@@ -454,6 +454,34 @@ h4 {
         line-height: 4.8rem;
     }
 }
+/* management section */
+.child_management {
+    background-color: #F6F6F6;
+    height: 334px;
+}
+.management_img {
+    background-image: url(/assets/images/iphone12-1x.png);
+    /* image-rendering: pixelated; */
+    height: 225px;
+    width: 111px;
+    margin: auto 1.6rem 6rem auto;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+@media screen and (min-width:1024px) {
+    .child_management {
+        height: 777px;
+    }
+    .management_img {
+        background-image: url(/assets/images/iphone12-2x.png);
+        height: 532px;
+        width: 270px;
+        
+    }
+}
+
+
+
 /* Footer */
 footer {
     background: linear-gradient(97.01deg, #53B9D9 -6.41%, rgba(20, 77, 101, 0) 110.43%);
