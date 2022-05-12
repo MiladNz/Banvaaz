@@ -455,28 +455,78 @@ h4 {
     }
 }
 /* management section */
-.child_management {
+.management_background {
     background-color: #F6F6F6;
     height: 334px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-top: 5rem;
+    padding-right: 1.5rem;
 }
 .management_img {
-    background-image: url(/assets/images/iphone12-1x.png);
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    /* background-image: url(/assets/images/iphone12-1x.png); */
     /* image-rendering: pixelated; */
-    height: 225px;
-    width: 111px;
+    /* width: 111px;
     margin: auto 1.6rem 6rem auto;
     background-position: right;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
+.management_text {
+    margin: 3rem 1.5rem auto 1.5rem;
+}
+.management_text p {
+    text-align: right;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    font-weight: 500;
+    color: #5B5B5B;
+    margin: 2.5rem auto 1rem auto;
+}
+.btn__management_1 {
+    border: 2px solid var(--color-primary);
+    border-radius: 8px;
+    background-color: var(--color-white);
+    font-size: 1.4rem;
+    line-height: 1rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    padding: 1.2rem;
+}
+.btn__management_2 {
+    display: none;
+}
+
 @media screen and (min-width:1024px) {
-    .child_management {
+    .management_background {
         height: 777px;
+        background-color: var(--color-white);
     }
-    .management_img {
-        background-image: url(/assets/images/iphone12-2x.png);
-        height: 532px;
-        width: 270px;
-        
+    .management_text {
+        margin: 2rem 1rem auto 1rem;
+    }
+    .management_text p {
+        padding-left: 2rem;
+        font-size: 3.6rem;
+        line-height: 5.4rem;
+        color: #474747;
+        text-align: right;
+        margin: 5rem auto 8rem 2rem ;
+    }
+    .btn__management_1 {
+        display: none;
+    }
+    .btn__management_2 {
+        display: block;
+        border: 3px solid var(--color-primary);
+        background-color: var(--color-white);
+        font-size: 3.2rem;
+        line-height: 4.8rem;
+        color: var(--color-primary);
+        font-weight: 700;
     }
 }
 
