@@ -530,7 +530,18 @@ h4 {
     }
 }
 
-
+/* Ability section */
+.ability_sec {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    margin-top: 2rem;
+}
+.ability_cell {
+    display: grid;
+    padding: 5px;
+    text-align: right;
+}
 
 /* Footer */
 footer {
