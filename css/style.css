@@ -646,18 +646,29 @@ h4 {
     background-color: #146183;
     height: 580px;
 }
-
+.footer_items {
+    display: grid;
+    padding: 2rem;
+    gap: 5rem 5rem;
+    grid-template-columns: repeat(2,1fr);
+}
 .footer_title {
     font-size: 2rem;
     line-height: 3rem;
     text-align: right;
     color: #F4F5F7;
+    margin-bottom: 1.7rem;
 }
 .footer_text {
     font-size: 1.6rem;
     line-height: 2.4rem;
     text-align: right;
     color: #EEEFF4;
+    margin-bottom: 1.3rem;
+}
+
+.badge_btn_1 > img {
+    margin-bottom: 1.7rem;
 }
 
 @media screen and (min-width:1024px) {
