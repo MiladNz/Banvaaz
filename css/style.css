@@ -669,9 +669,14 @@ h4 {
     margin-bottom: 1.3rem;
     text-decoration: none;
 }
+.footer_badges {
+    display: flex;
+    flex-direction: column;
+}
 .badge_btn_1 > img {
     margin-bottom: 1.7rem;
 }
+
 .line {
     width: 100%;
     border: solid 1px var(--color-white);
@@ -715,18 +720,44 @@ h4 {
     margin-top: 2rem;
 }
 
-
 @media screen and (min-width:1024px) {
     .main-footer {
-        background: linear-gradient(243.02deg, #10A9DA -9.92%, #92E5FF 106.28%);
+        background: var(--color-secondary-light);
+        height: 454px;
+    }
+    .footer_items {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        margin-right: 10rem;
+        padding-top: 6rem;
     }
     .footer_title {
         font-size: 2.4rem;
         line-height: 3.6rem;
+        color: #F4F5F7;
     }
     .footer_text {
         font-size: 2rem;
         line-height: 3rem;
+    }
+    .social {
+        display: flex;
+        justify-content: space-around;
+    }
+    .social_icons {
+        margin-top: 2rem;
+    }
+    .icon_container {
+        width: 32px;
+        height: 32px;
+        background-color: #56afca;
+        color: var(--color-white);
+    }
+    .copyright {
+        font-size: 1.8rem;
+        line-height: 2.7rem;
     }
 }
 
