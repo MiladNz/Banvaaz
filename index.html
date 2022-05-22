@@ -16,8 +16,150 @@
         referrerpolicy="no-referrer"
     >
 </head>
-
 <body>
+    <!-- HEADER -->
+    <header>
+        <nav class="nav container">    
+            <a href="#">
+                <picture>
+                    <source media="(max-width : 1024px)" srcset="./assets/images/Logo1x.png" />
+                    <source media="(min-width: 1025px)" srcset="./assets/images/Logo2x.png" />
+                    <img src="./assets/images/Logo2x.png" alt="logo">    
+                </picture>
+            </a>
+    
+            <ul class="list nav_list btn_tert">
+                <li class="nav__item cta">
+                    <a href="#" class="btn btn--block btn--tertiary">
+                        فروشگاه بانواز
+                    </a>
+                </li>
+            </ul>
+    
+            <div class="nav__toggler">
+                <div class="bar bar-one"></div>
+                <div class="bar bar-two"></div>
+                <div class="bar bar-three"></div>
+            </div>
+    
+            <ul class="list nav__list">
+                <li class="nav__item"><a href="#">خانه</a></li>
+                <li class="nav__item"><a href="#">فروشگاه</a></li>
+                <li class="nav__item">
+                    <a href="#"> 
+                        درباره ما
+                    </a>
+                </li>
+                <li class="nav__item cta">
+                    <a href="#" class="btn btn--block btn--primary">
+                        ورود به داشبورد
+                    </a>
+                </li>
+                <li class="nav__item cta">
+                    <a href="#" class="btn btn--block btn--secondary">
+                        دانلود اپلیکیشن
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- HERO SEC -->
+    <section class="hero-section container">
+        <picture>
+            <source media="(max-width : 1024px)" srcset="./assets/images/hero_sec_1.png" />
+            <source media="(min-width: 1025px)" srcset="./assets/images/hero_sec_2.png" />
+            <img src="./assets/images/hero_sec_2.png" alt="hero" class="banner-img"> 
+        </picture>
+        <picture>
+            <source media="(min-width: 1025px)" srcset="./assets/images/iPhone_12.png" />
+            <img src="./assets/images/iPhone_12.png" alt="iphone" class="banner-phone">
+        </picture>
+        <div>
+            <h1 class="hero-title">
+                خیالت از خونه راحت !
+            </h1>
+            <p class="hero-text">
+                بانواز واژه ای کردی به معنای با خبر ساختن با صدای بلند است. درست مثل بانواز! 
+                <br>
+                با سنسورهای بانواز از هیچ اتفاقی بی خبر نیستی!
+                <br>
+                چه خونه باشی چه نه.
+            </p>
+            <button class="btn btn--hero">فروشگاه بانواز</button>
+        </div>
+    </section>
+    <!-- SERVICES -->
+    <section class="services container">
+        <div class="services__tabs">
+            <a href="#" class="tab">
+                <picture class="tab__image">
+                    <source media="(max-width : 1024px)" srcset="./assets/images/door_1x.png" />
+                    <source media="(min-width: 1025px)" srcset="./assets/images/door_2x.png" />
+                    <img src="./assets/images/door_2x.png" alt="door" > 
+                </picture>
+                <p class="tab__text">درب و پنجره</p>
+            </a>
+    
+            <a href="#" class="tab">
+                <picture class="tab__image">
+                    <source media="(max-width : 1024px)" srcset="./assets/images/flower_1x.png" />
+                    <source media="(min-width: 1025px)" srcset="./assets/images/flower_2x.png" />
+                    <img src="./assets/images/flower_2x.png" alt="flower" > 
+                </picture>
+                <p class="tab__text">گل و گیاه</p>
+            </a>
+    
+            <a href="#" class="tab">
+                <picture class="tab__image">
+                    <source media="(max-width : 1024px)" srcset="./assets/images/elec_app_1x.png" />
+                    <source media="(min-width: 1025px)" srcset="./assets/images/elec_app_2x.png" />
+                    <img src="./assets/images/elec_app_2x.png" alt="elec_app" > 
+                </picture>
+                <p class="tab__text">وسایل برقی</p>
+            </a>
+    
+            <a href="#" class="tab">
+                <picture class="tab__image">
+                    <source media="(max-width : 1024px)" srcset="./assets/images/lights_1x.png" />
+                    <source media="(min-width: 1025px)" srcset="./assets/images/lights_2x.png" />
+                    <img src="./assets/images/lights_2x.png" alt="lights" > 
+                </picture>
+                <p class="tab__text">روشنایی</p>
+            </a>
+    
+            <a href="#" class="tab">
+                <picture class="tab__image">
+                    <source media="(max-width : 1024px)" srcset="./assets/images/heater_1x.png" />
+                    <source media="(min-width: 1025px)" srcset="./assets/images/heater_2x.png" />
+                    <img src="./assets/images/heater_2x.png" alt="heater" > 
+                </picture>
+                <p class="tab__text">گرمایشی</p>
+            </a>
+    
+            <a href="#" class="tab">
+                <picture class="tab__image">
+                    <source media="(max-width : 1024px)" srcset="./assets/images/pet_1x.png" />
+                    <source media="(min-width: 1025px)" srcset="./assets/images/pet_2x.png" />
+                    <img src="./assets/images/pet_2x.png" alt="pet" > 
+                </picture>
+                <p class="tab__text">حیوانات</p>
+            </a>
+        </div>
+    </section>
+    <!-- DEVICE SEC -->
+    <section class="device container">
+        <img src="/assets/images/device_1x.png" alt="device" class="device__img_1x">
+        <h2 class="device__header">مدیریت با دستگاه مرکزی</h2>
+        <p class="device__text">
+            بانواز برای مدیریت و کنترل سنسورهای خودش از یک 
+            دستگاه مرکزی استفاده میکنه که همه چیز تحت
+            کنترل همین دستگاه مرکزیه.
+            دستگاه به کمک اینترنت به گوشی شما متصل میشه و 
+            شما میتونین همه چیز رو تحت کنترل خودتون بگیرین.
+        </p>
+        <img src="/assets/images/device_2x.png" alt="device" class="device__img_2x">
+    </section>
+    <!--  -->
 
     <script src="/js/app.js"></script>
 </body>
