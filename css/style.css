@@ -419,11 +419,11 @@ h4 {
 .child_img {
     background-image: url(/assets/images/child_1x.png);
     height: 168px;
-    width: 100%;
     background-position: right;
     background-repeat: no-repeat;
     background-color: #F6F6F6;
     position: relative;
+    margin-left: -4.95rem;
 }
 .child_text {
     position: absolute;
@@ -454,6 +454,7 @@ h4 {
     .child_img {
         background-image: url(/assets/images/child_2x.png);
         height: 473px;
+        margin: auto;
     }
     .child_text h4{
         margin: 4rem auto 3rem auto;
