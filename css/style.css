@@ -362,28 +362,29 @@ h4 {
 
 /* Device section */
 .device {
-    margin: 8rem 1.6rem 3rem 1.7rem;
-    /* display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; */
-    /* to be continued ... */
+    align-items: center;
+    margin: 4rem 2rem 3rem 1rem;
 }
 .device__img_1x {
     display: block;
     width: 316px;
     height: auto;
-    margin: 4rem auto 3rem auto;
+    margin: 5rem 4rem 3rem auto;
 }
 .device__header {
     text-align: center;
+    margin-right: 2rem;
     margin-bottom: 2rem;
 }
 .device__text {
+    width: 342px;
     font-size: 1.6rem;
     line-height: 2.4rem;
     text-align: right;
-    margin: 2rem 1.7rem 3rem 1.6rem;
+    margin: 2rem 4.5rem 4rem 3rem;
     color: var(--color-white);
 }
 .device__img_2x {
@@ -395,7 +396,7 @@ h4 {
         margin: 15rem auto auto auto;
     }
     .device__header {
-        margin-bottom: 4rem;
+        margin: auto auto 4rem auto;
     }
     .device__img_1x {
         display: none;
@@ -407,6 +408,7 @@ h4 {
         margin: 9rem 34rem 10rem 34rem;
     }
     .device__text {
+        width: 100%;
         font-size: 3.5rem;
         line-height: 5rem;
         text-align: center;
